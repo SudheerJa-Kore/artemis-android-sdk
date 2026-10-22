@@ -99,7 +99,8 @@ class MainActivity : AppCompatActivity() {
             }
             handle.showChat(this, ChatOptions(
                 title = chatTitle.ifBlank { "Chat" },
-                footerBuilder = CustomChatheaderFooter.footerBuilder,
+//                headerBuilder = CustomChatheaderFooter.headerBuilder,
+//                footerBuilder = CustomChatheaderFooter.footerBuilder,
             )
             )
         } catch (error: IllegalArgumentException) {
